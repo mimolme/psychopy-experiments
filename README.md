@@ -1,2 +1,2 @@
 # psychopy-experiments
-PsychoPy experiments and templates
+PsychoPy experiment templates for education
