@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 ABA列 wav 自動生成スクリプト
-- 9条件（3つの周波数差 × 3つのSOA）の wav を保存
+- 18条件（6つの周波数差 × 3つのSOA）の wav を保存
 - PsychoPy不要
 - 出力先: wav_sequences/
 """
@@ -14,7 +14,7 @@ import numpy as np
 # 元プログラムに合わせた設定
 # =========================
 BASE_FREQ = 500.0
-FREQ_DIFF_SEMITONES = [2, 6, 10]
+FREQ_DIFF_SEMITONES = [2, 4, 6, 8, 10, 12]
 SOA_LIST = [0.09, 0.12, 0.18]
 TONE_DUR = 0.060
 RAMP_DUR = 0.005

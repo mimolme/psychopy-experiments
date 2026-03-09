@@ -54,7 +54,7 @@ if not dlg.OK:
 # =========================
 # ---- stimulus ----
 BASE_FREQ = 500.0                          # A tone frequency in Hz
-FREQ_DIFF_SEMITONES = [2, 6, 10]          # IV1: frequency difference
+FREQ_DIFF_SEMITONES = [2, 4, 6, 8, 10, 12]          # IV1: frequency difference
 SOA_LIST = [0.09, 0.12, 0.18]             # IV2: onset-to-onset interval (s)
 TONE_DUR = 0.060                          # fixed tone duration in s (60 ms)
 RAMP_DUR = 0.005                          # fixed rise/fall ramp in s (5 ms)
@@ -63,7 +63,7 @@ SAMPLE_RATE = 44100
 N_TRIPLETS = 12                           # number of ABA_ triplets per trial
 
 # ---- design ----
-N_REPS_PER_CONDITION = 8                  # main trials per condition
+N_REPS_PER_CONDITION = 10                  # main trials per condition
 N_PRACTICE_TRIALS = 6                     # short practice before main session
 BLOCK_SIZE = 18                           # 72 main trials -> 4 blocks
 RANDOM_SEED = None                        # set integer for reproducibility if needed
