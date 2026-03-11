@@ -67,15 +67,15 @@ ax.axvline(ramp_ms + plateau_ms, color="black", linestyle=":", linewidth=0.8)
 y_annot = 1.04
 ax.annotate("", xy=(0, y_annot), xytext=(ramp_ms, y_annot),
             arrowprops=dict(arrowstyle="<->", color="black", linewidth=0.8))
-ax.text(ramp_ms / 2, y_annot + 0.01, "5 ms", ha="center", va="bottom")
+ax.text(ramp_ms / 2, y_annot + 0.01, "5", ha="center", va="bottom")
 
 ax.annotate("", xy=(ramp_ms, y_annot), xytext=(ramp_ms + plateau_ms, y_annot),
             arrowprops=dict(arrowstyle="<->", color="black", linewidth=0.8))
-ax.text(ramp_ms + plateau_ms / 2, y_annot + 0.01, "50 ms", ha="center", va="bottom")
+ax.text(ramp_ms + plateau_ms / 2, y_annot + 0.01, "50", ha="center", va="bottom")
 
 ax.annotate("", xy=(ramp_ms + plateau_ms, y_annot), xytext=(tone_dur_ms, y_annot),
             arrowprops=dict(arrowstyle="<->", color="black", linewidth=0.8))
-ax.text(ramp_ms + plateau_ms + ramp_ms / 2, y_annot + 0.01, "5 ms", ha="center", va="bottom")
+ax.text(ramp_ms + plateau_ms + ramp_ms / 2, y_annot + 0.01, "5", ha="center", va="bottom")
 
 # y目盛りを簡潔に
 ax.set_yticks([0, 1])
