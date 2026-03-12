@@ -1,0 +1,586 @@
+14.9040 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+14.9617 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+19.1044 	INFO 	Loaded monitor calibration from ['2025_09_01 12:08']
+19.2539 	INFO 	Using renderer 'Apple M4' for graphics
+19.2539 	INFO 	OpenGL version supported by driver is 2..
+19.2741 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x1599764a0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x159976440>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x15afe5630>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([2940, 1912]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+19.2742 	EXP 	window1: backgroundImage = ''
+19.2742 	EXP 	window1: backgroundFit = 'none'
+19.4943 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+19.4943 	EXP 	window1: recordFrameIntervals = False
+19.6713 	EXP 	window1: recordFrameIntervals = True
+20.5425 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+21.1900 	INFO 	keyboard.Keyboard is using ptb backend.
+21.3540 	INFO 	keyboard.Keyboard is using ptb backend.
+21.5171 	INFO 	keyboard.Keyboard is using ptb backend.
+21.5657 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: 外部ヘッドフォン
+21.5813 	INFO 	Created stream for speaker device: 外部ヘッドフォン (1.0)
+21.8913 	INFO 	keyboard.Keyboard is using ptb backend.
+22.0562 	INFO 	keyboard.Keyboard is using ptb backend.
+22.0563 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: 外部ヘッドフォン
+22.0600 	INFO 	Created stream for speaker device: 外部ヘッドフォン (1.0)
+22.2370 	INFO 	keyboard.Keyboard is using ptb backend.
+22.3997 	INFO 	keyboard.Keyboard is using ptb backend.
+22.3998 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: 外部ヘッドフォン
+22.4035 	INFO 	Created stream for speaker device: 外部ヘッドフォン (1.0)
+22.5803 	INFO 	keyboard.Keyboard is using ptb backend.
+22.5803 	EXP 	ASS_builder_online: status = STARTED
+22.6218 	EXP 	Created instrText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Hiragino Sans', fontFiles=[], height=np.float64(0.045), italic=False, languageStyle='LTR', name='instrText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.6254 	EXP 	Created pracIntroText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Hiragino Sans', fontFiles=[], height=np.float64(0.045), italic=False, languageStyle='LTR', name='pracIntroText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='まずは練習をしましょう。\n\n準備ができたら\nスペースキー を押してください。', units='height', win=Window(...), wrapWidth=1)
+22.6275 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.08), italic=False, languageStyle='LTR', name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+22.6276 	EXP 	stimSound: sampleRate = 48000
+22.6276 	EXP 	stimSound: channels = None
+22.6329 	EXP 	Sound stimSound set volume 1.000
+22.6392 	EXP 	Created response = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Hiragino Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='response', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.6452 	EXP 	Created main_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Hiragino Sans', fontFiles=[], height=np.float64(0.045), italic=False, languageStyle='LTR', name='main_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='練習は終了です。\n続いて本番に移ります。\n\nスペースキー で開始してください。', units='height', win=Window(...), wrapWidth=1)
+22.6464 	EXP 	Created fixation_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.08), italic=False, languageStyle='LTR', name='fixation_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+22.6464 	EXP 	stimSound_2: sampleRate = 48000
+22.6464 	EXP 	stimSound_2: channels = None
+22.6528 	EXP 	Sound stimSound_2 set volume 1.000
+22.6546 	EXP 	Created response_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Hiragino Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='response_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.6599 	EXP 	Created break_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Hiragino Sans', fontFiles=[], height=np.float64(0.045), italic=False, languageStyle='LTR', name='break_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.6606 	EXP 	Created fixation_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.08), italic=False, languageStyle='LTR', name='fixation_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+22.6606 	EXP 	stimSound_3: sampleRate = 48000
+22.6606 	EXP 	stimSound_3: channels = None
+22.6654 	EXP 	Sound stimSound_3 set volume 1.000
+22.6670 	EXP 	Created response_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Hiragino Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='response_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.6696 	EXP 	Created thanks_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Hiragino Sans', fontFiles=[], height=np.float64(0.045), italic=False, languageStyle='LTR', name='thanks_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='実験は終了です。お疲れ様でした =^^=', units='height', win=Window(...), wrapWidth=1)
+0.0235 	INFO 	Keyboard events cleared
+0.0234 	EXP 	instrText: autoDraw = True
+9.5907 	EXP 	Device response: <KeyPress from None: t=9.439828749978915, value=space, duration=None>
+9.5908 	EXP 	Device response: <KeyPress from None: t=9.439828749978915, value=space, duration=0.03433600001153536>
+9.5934 	DATA 	Keypress: space
+9.5984 	INFO 	Keyboard events cleared
+9.5984 	WARNING 	t of last frame was 151.30ms (=1/6)
+9.5984 	EXP 	instrText: autoDraw = False
+9.5984 	EXP 	pracIntroText: autoDraw = True
+12.7820 	EXP 	Device response: <KeyPress from None: t=12.774766874994384, value=space, duration=None>
+12.7961 	EXP 	Imported practice_conditions.csv as conditions, 18 conditions, 3 params
+12.7972 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'soundFile': 'stimuli/stim_df6_soa0.12.wav', 'df': np.int64(6), 'soa': np.float64(0.12), 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+12.7988 	EXP 	stimSound: sampleRate = 44100
+12.8137 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+12.8245 	DATA 	Keypress: space
+12.8333 	WARNING 	t of last frame was 53.05ms (=1/18)
+12.8333 	EXP 	pracIntroText: autoDraw = False
+12.8333 	EXP 	fixation: autoDraw = True
+12.8341 	EXP 	Device response: <KeyPress from None: t=12.774766874994384, value=space, duration=0.05235858299420215>
+13.5302 	EXP 	fixation: autoDraw = False
+13.5694 	EXP 	Sound stimSound reached end of file
+13.5858 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+19.3469 	EXP 	Sound stimSound reached end of file
+19.3530 	EXP 	Sound stimSound reached end of file
+19.3633 	INFO 	Keyboard events cleared
+19.3632 	EXP 	fixation: autoDraw = False
+19.3632 	EXP 	response: autoDraw = True
+20.8715 	EXP 	Device response: <KeyPress from None: t=20.867380332987523, value=2, duration=None>
+20.8721 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'soundFile': 'stimuli/stim_df10_soa0.18.wav', 'df': np.int64(10), 'soa': np.float64(0.18), 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+20.8738 	EXP 	stimSound: sampleRate = 44100
+20.8957 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+20.9019 	DATA 	Keypress: 2
+20.9073 	WARNING 	t of last frame was 37.26ms (=1/26)
+20.9073 	EXP 	response: autoDraw = False
+20.9073 	EXP 	fixation: autoDraw = True
+20.9132 	EXP 	Device response: <KeyPress from None: t=20.867380332987523, value=2, duration=0.04231133300345391>
+21.6032 	EXP 	fixation: autoDraw = False
+21.6641 	EXP 	Sound stimSound reached end of file
+21.6805 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+30.3213 	EXP 	Sound stimSound reached end of file
+30.3281 	EXP 	Sound stimSound reached end of file
+30.3356 	INFO 	Keyboard events cleared
+30.3354 	EXP 	fixation: autoDraw = False
+30.3354 	EXP 	response: autoDraw = True
+32.3155 	EXP 	Device response: <KeyPress from None: t=32.309593957994366, value=1, duration=None>
+32.3161 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'soundFile': 'stimuli/stim_df10_soa0.12.wav', 'df': np.int64(10), 'soa': np.float64(0.12), 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+32.3176 	EXP 	stimSound: sampleRate = 44100
+32.3328 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+32.3370 	DATA 	Keypress: 1
+32.3423 	WARNING 	t of last frame was 28.69ms (=1/34)
+32.3423 	EXP 	response: autoDraw = False
+32.3423 	EXP 	fixation: autoDraw = True
+32.3818 	EXP 	Device response: <KeyPress from None: t=32.309593957994366, value=1, duration=0.06217987497802824>
+33.0361 	EXP 	fixation: autoDraw = False
+33.1031 	EXP 	Sound stimSound reached end of file
+33.1195 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+38.8805 	EXP 	Sound stimSound reached end of file
+38.8862 	EXP 	Sound stimSound reached end of file
+38.8970 	INFO 	Keyboard events cleared
+38.8968 	EXP 	fixation: autoDraw = False
+38.8968 	EXP 	response: autoDraw = True
+39.6385 	EXP 	Device response: <KeyPress from None: t=39.632165874994826, value=2, duration=None>
+39.6390 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'soundFile': 'stimuli/stim_df8_soa0.09.wav', 'df': np.int64(8), 'soa': np.float64(0.09), 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+39.6407 	EXP 	stimSound: sampleRate = 44100
+39.6554 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+39.6594 	DATA 	Keypress: 2
+39.6646 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+39.6646 	EXP 	response: autoDraw = False
+39.6646 	EXP 	fixation: autoDraw = True
+39.6973 	EXP 	Device response: <KeyPress from None: t=39.632165874994826, value=2, duration=0.05429166599060409>
+40.3526 	EXP 	fixation: autoDraw = False
+40.4305 	EXP 	Sound stimSound reached end of file
+40.4469 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+44.7676 	EXP 	Sound stimSound reached end of file
+44.7740 	EXP 	Sound stimSound reached end of file
+44.7809 	INFO 	Keyboard events cleared
+44.7806 	EXP 	fixation: autoDraw = False
+44.7806 	EXP 	response: autoDraw = True
+45.1491 	EXP 	Device response: <KeyPress from None: t=45.13871779097826, value=1, duration=None>
+45.1497 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'soundFile': 'stimuli/stim_df2_soa0.18.wav', 'df': np.int64(2), 'soa': np.float64(0.18), 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+45.1514 	EXP 	stimSound: sampleRate = 44100
+45.1688 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+45.1727 	DATA 	Keypress: 1
+45.1781 	EXP 	response: autoDraw = False
+45.1781 	EXP 	fixation: autoDraw = True
+45.2476 	EXP 	Device response: <KeyPress from None: t=45.13871779097826, value=1, duration=0.09855841699754819>
+45.8699 	EXP 	fixation: autoDraw = False
+45.9362 	EXP 	Sound stimSound reached end of file
+45.9526 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+54.5937 	EXP 	Sound stimSound reached end of file
+54.6004 	EXP 	Sound stimSound reached end of file
+54.6138 	INFO 	Keyboard events cleared
+54.6136 	EXP 	fixation: autoDraw = False
+54.6136 	EXP 	response: autoDraw = True
+55.2822 	EXP 	Device response: <KeyPress from None: t=55.279096957994625, value=2, duration=None>
+55.2828 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'soundFile': 'stimuli/stim_df12_soa0.18.wav', 'df': np.int64(12), 'soa': np.float64(0.18), 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+55.2843 	EXP 	stimSound: sampleRate = 44100
+55.3025 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+55.3065 	DATA 	Keypress: 2
+55.3115 	EXP 	response: autoDraw = False
+55.3115 	EXP 	fixation: autoDraw = True
+55.3978 	EXP 	Device response: <KeyPress from None: t=55.279096957994625, value=2, duration=0.1143153749871999>
+56.0029 	EXP 	fixation: autoDraw = False
+56.0695 	EXP 	Sound stimSound reached end of file
+56.0859 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+64.7262 	EXP 	Sound stimSound reached end of file
+64.7328 	EXP 	Sound stimSound reached end of file
+64.7471 	INFO 	Keyboard events cleared
+64.7469 	EXP 	fixation: autoDraw = False
+64.7469 	EXP 	response: autoDraw = True
+65.3824 	EXP 	Device response: <KeyPress from None: t=65.37339066597633, value=2, duration=None>
+65.3829 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'soundFile': 'stimuli/stim_df4_soa0.18.wav', 'df': np.int64(4), 'soa': np.float64(0.18), 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+65.3847 	EXP 	stimSound: sampleRate = 44100
+65.4039 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+65.4100 	DATA 	Keypress: 2
+65.4156 	EXP 	response: autoDraw = False
+65.4156 	EXP 	fixation: autoDraw = True
+65.4860 	EXP 	Device response: <KeyPress from None: t=65.37339066597633, value=2, duration=0.11026633399887942>
+66.1136 	EXP 	fixation: autoDraw = False
+66.1698 	EXP 	Sound stimSound reached end of file
+66.1862 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+74.8267 	EXP 	Sound stimSound reached end of file
+74.8337 	EXP 	Sound stimSound reached end of file
+74.8472 	INFO 	Keyboard events cleared
+74.8470 	EXP 	fixation: autoDraw = False
+74.8470 	EXP 	response: autoDraw = True
+75.5152 	EXP 	Device response: <KeyPress from None: t=75.51316291597323, value=1, duration=None>
+75.5157 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'soundFile': 'stimuli/stim_df8_soa0.12.wav', 'df': np.int64(8), 'soa': np.float64(0.12), 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+75.5173 	EXP 	stimSound: sampleRate = 44100
+75.5302 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+75.5342 	DATA 	Keypress: 1
+75.5396 	EXP 	response: autoDraw = False
+75.5396 	EXP 	fixation: autoDraw = True
+75.6655 	EXP 	Device response: <KeyPress from None: t=75.51316291597323, value=1, duration=0.15027704200474545>
+76.2358 	EXP 	fixation: autoDraw = False
+76.3029 	EXP 	Sound stimSound reached end of file
+76.3193 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+82.0804 	EXP 	Sound stimSound reached end of file
+82.0861 	EXP 	Sound stimSound reached end of file
+82.0971 	INFO 	Keyboard events cleared
+82.0969 	EXP 	fixation: autoDraw = False
+82.0969 	EXP 	response: autoDraw = True
+83.3986 	EXP 	Device response: <KeyPress from None: t=83.39044962497428, value=2, duration=None>
+83.3991 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'soundFile': 'stimuli/stim_df4_soa0.09.wav', 'df': np.int64(4), 'soa': np.float64(0.09), 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+83.4007 	EXP 	stimSound: sampleRate = 44100
+83.4113 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+83.4165 	DATA 	Keypress: 2
+83.4217 	EXP 	response: autoDraw = False
+83.4217 	EXP 	fixation: autoDraw = True
+83.5156 	EXP 	Device response: <KeyPress from None: t=83.39044962497428, value=2, duration=0.11807883300934918>
+84.1195 	EXP 	fixation: autoDraw = False
+84.1864 	EXP 	Sound stimSound reached end of file
+84.2027 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+88.5239 	EXP 	Sound stimSound reached end of file
+88.5321 	EXP 	Sound stimSound reached end of file
+88.5394 	INFO 	Keyboard events cleared
+88.5392 	EXP 	fixation: autoDraw = False
+88.5392 	EXP 	response: autoDraw = True
+89.5543 	EXP 	Device response: <KeyPress from None: t=89.55101858297712, value=1, duration=None>
+89.5548 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'soundFile': 'stimuli/stim_df6_soa0.18.wav', 'df': np.int64(6), 'soa': np.float64(0.18), 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+89.5565 	EXP 	stimSound: sampleRate = 44100
+89.5764 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+89.5801 	DATA 	Keypress: 1
+89.5854 	EXP 	response: autoDraw = False
+89.5854 	EXP 	fixation: autoDraw = True
+89.6196 	EXP 	Device response: <KeyPress from None: t=89.55101858297712, value=1, duration=0.06632437501684763>
+90.2802 	EXP 	fixation: autoDraw = False
+90.3472 	EXP 	Sound stimSound reached end of file
+90.3636 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+99.0045 	EXP 	Sound stimSound reached end of file
+99.0114 	EXP 	Sound stimSound reached end of file
+99.0192 	INFO 	Keyboard events cleared
+99.0190 	EXP 	fixation: autoDraw = False
+99.0190 	EXP 	response: autoDraw = True
+99.4043 	EXP 	Device response: <KeyPress from None: t=99.3995267499995, value=2, duration=None>
+99.4048 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'soundFile': 'stimuli/stim_df6_soa0.09.wav', 'df': np.int64(6), 'soa': np.float64(0.09), 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+99.4065 	EXP 	stimSound: sampleRate = 44100
+99.4170 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+99.4233 	DATA 	Keypress: 2
+99.4288 	EXP 	response: autoDraw = False
+99.4288 	EXP 	fixation: autoDraw = True
+99.4879 	EXP 	Device response: <KeyPress from None: t=99.3995267499995, value=2, duration=0.08628641598625109>
+100.1196 	EXP 	fixation: autoDraw = False
+100.1971 	EXP 	Sound stimSound reached end of file
+100.2135 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+104.5347 	EXP 	Sound stimSound reached end of file
+104.5416 	EXP 	Sound stimSound reached end of file
+104.5517 	INFO 	Keyboard events cleared
+104.5515 	EXP 	fixation: autoDraw = False
+104.5515 	EXP 	response: autoDraw = True
+105.3820 	EXP 	Device response: <KeyPress from None: t=105.37659049997455, value=2, duration=None>
+105.3826 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'soundFile': 'stimuli/stim_df8_soa0.18.wav', 'df': np.int64(8), 'soa': np.float64(0.18), 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+105.3841 	EXP 	stimSound: sampleRate = 44100
+105.4018 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+105.4058 	DATA 	Keypress: 2
+105.4111 	EXP 	response: autoDraw = False
+105.4111 	EXP 	fixation: autoDraw = True
+105.5141 	EXP 	Device response: <KeyPress from None: t=105.37659049997455, value=2, duration=0.1341798750218004>
+106.1028 	EXP 	fixation: autoDraw = False
+106.1695 	EXP 	Sound stimSound reached end of file
+106.1859 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+114.8270 	EXP 	Sound stimSound reached end of file
+114.8336 	EXP 	Sound stimSound reached end of file
+114.8471 	INFO 	Keyboard events cleared
+114.8469 	EXP 	fixation: autoDraw = False
+114.8469 	EXP 	response: autoDraw = True
+115.6487 	EXP 	Device response: <KeyPress from None: t=115.64632283299579, value=1, duration=None>
+115.6492 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'soundFile': 'stimuli/stim_df2_soa0.12.wav', 'df': np.int64(2), 'soa': np.float64(0.12), 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+115.6508 	EXP 	stimSound: sampleRate = 44100
+115.6627 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+115.6666 	DATA 	Keypress: 1
+115.6720 	EXP 	response: autoDraw = False
+115.6720 	EXP 	fixation: autoDraw = True
+115.7547 	EXP 	Device response: <KeyPress from None: t=115.64632283299579, value=1, duration=0.10224254199420102>
+116.3694 	EXP 	fixation: autoDraw = False
+116.4363 	EXP 	Sound stimSound reached end of file
+116.4527 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+122.2136 	EXP 	Sound stimSound reached end of file
+122.2196 	EXP 	Sound stimSound reached end of file
+122.2303 	INFO 	Keyboard events cleared
+122.2302 	EXP 	fixation: autoDraw = False
+122.2302 	EXP 	response: autoDraw = True
+122.5654 	EXP 	Device response: <KeyPress from None: t=122.55405433298438, value=2, duration=None>
+122.5658 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'soundFile': 'stimuli/stim_df10_soa0.09.wav', 'df': np.int64(10), 'soa': np.float64(0.09), 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+122.5674 	EXP 	stimSound: sampleRate = 44100
+122.5774 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+122.5835 	DATA 	Keypress: 2
+122.5894 	EXP 	response: autoDraw = False
+122.5894 	EXP 	fixation: autoDraw = True
+122.6820 	EXP 	Device response: <KeyPress from None: t=122.55405433298438, value=2, duration=0.1262901250156574>
+123.2859 	EXP 	fixation: autoDraw = False
+123.3529 	EXP 	Sound stimSound reached end of file
+123.3693 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+127.6904 	EXP 	Sound stimSound reached end of file
+127.6972 	EXP 	Sound stimSound reached end of file
+127.7138 	INFO 	Keyboard events cleared
+127.7136 	EXP 	fixation: autoDraw = False
+127.7136 	EXP 	response: autoDraw = True
+128.1989 	EXP 	Device response: <KeyPress from None: t=128.19367920799414, value=2, duration=None>
+128.1994 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'soundFile': 'stimuli/stim_df12_soa0.12.wav', 'df': np.int64(12), 'soa': np.float64(0.12), 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+128.2010 	EXP 	stimSound: sampleRate = 44100
+128.2132 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+128.2172 	DATA 	Keypress: 2
+128.2226 	EXP 	response: autoDraw = False
+128.2226 	EXP 	fixation: autoDraw = True
+128.3322 	EXP 	Device response: <KeyPress from None: t=128.19367920799414, value=2, duration=0.13437962500029244>
+128.9195 	EXP 	fixation: autoDraw = False
+128.9857 	EXP 	Sound stimSound reached end of file
+129.0021 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+134.7632 	EXP 	Sound stimSound reached end of file
+134.7698 	EXP 	Sound stimSound reached end of file
+134.7805 	INFO 	Keyboard events cleared
+134.7803 	EXP 	fixation: autoDraw = False
+134.7803 	EXP 	response: autoDraw = True
+135.3213 	EXP 	Device response: <KeyPress from None: t=135.31676462499308, value=1, duration=None>
+135.3218 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'soundFile': 'stimuli/stim_df2_soa0.09.wav', 'df': np.int64(2), 'soa': np.float64(0.09), 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+135.3235 	EXP 	stimSound: sampleRate = 44100
+135.3341 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+135.3398 	DATA 	Keypress: 1
+135.3449 	EXP 	response: autoDraw = False
+135.3449 	EXP 	fixation: autoDraw = True
+135.3985 	EXP 	Device response: <KeyPress from None: t=135.31676462499308, value=1, duration=0.07027712499257177>
+136.0361 	EXP 	fixation: autoDraw = False
+136.1138 	EXP 	Sound stimSound reached end of file
+136.1302 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+140.4514 	EXP 	Sound stimSound reached end of file
+140.4579 	EXP 	Sound stimSound reached end of file
+140.4808 	INFO 	Keyboard events cleared
+140.4806 	EXP 	fixation: autoDraw = False
+140.4806 	EXP 	response: autoDraw = True
+141.1820 	EXP 	Device response: <KeyPress from None: t=141.18004099998507, value=1, duration=None>
+141.1825 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'soundFile': 'stimuli/stim_df4_soa0.12.wav', 'df': np.int64(4), 'soa': np.float64(0.12), 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+141.1840 	EXP 	stimSound: sampleRate = 44100
+141.1971 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+141.2012 	DATA 	Keypress: 1
+141.2066 	EXP 	response: autoDraw = False
+141.2066 	EXP 	fixation: autoDraw = True
+141.3319 	EXP 	Device response: <KeyPress from None: t=141.18004099998507, value=1, duration=0.14236104101291858>
+141.9025 	EXP 	fixation: autoDraw = False
+141.9696 	EXP 	Sound stimSound reached end of file
+141.9860 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+147.7471 	EXP 	Sound stimSound reached end of file
+147.7531 	EXP 	Sound stimSound reached end of file
+147.7637 	INFO 	Keyboard events cleared
+147.7636 	EXP 	fixation: autoDraw = False
+147.7636 	EXP 	response: autoDraw = True
+149.0655 	EXP 	Device response: <KeyPress from None: t=149.06119545799447, value=2, duration=None>
+149.0661 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'soundFile': 'stimuli/stim_df12_soa0.09.wav', 'df': np.int64(12), 'soa': np.float64(0.09), 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+149.0676 	EXP 	stimSound: sampleRate = 44100
+149.0779 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+149.0824 	DATA 	Keypress: 2
+149.0878 	EXP 	response: autoDraw = False
+149.0878 	EXP 	fixation: autoDraw = True
+149.1486 	EXP 	Device response: <KeyPress from None: t=149.06119545799447, value=2, duration=0.07755399998859502>
+149.7862 	EXP 	fixation: autoDraw = False
+149.8528 	EXP 	Sound stimSound reached end of file
+149.8692 	EXP 	Playing sound stimSound on speaker 外部ヘッドフォン
+154.1904 	EXP 	Sound stimSound reached end of file
+154.1971 	EXP 	Sound stimSound reached end of file
+154.2138 	INFO 	Keyboard events cleared
+154.2135 	EXP 	fixation: autoDraw = False
+154.2135 	EXP 	response: autoDraw = True
+154.7487 	EXP 	Device response: <KeyPress from None: t=154.74453091598116, value=1, duration=None>
+154.7555 	DATA 	Keypress: 1
+154.7615 	INFO 	Keyboard events cleared
+154.7614 	EXP 	response: autoDraw = False
+154.7614 	EXP 	main_text: autoDraw = True
+154.8987 	EXP 	Device response: <KeyPress from None: t=154.74453091598116, value=1, duration=0.1423177919932641>
+158.0819 	EXP 	Device response: <KeyPress from None: t=158.07842458298546, value=space, duration=None>
+158.0891 	EXP 	Imported main_conditions.csv as conditions, 18 conditions, 3 params
+158.0903 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'soundFile': 'stimuli/stim_df12_soa0.18.wav', 'df': np.int64(12), 'soa': np.float64(0.18), 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+158.0909 	EXP 	stimSound_2: sampleRate = 44100
+158.1068 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+158.1126 	DATA 	Keypress: space
+158.1215 	EXP 	main_text: autoDraw = False
+158.1215 	EXP 	fixation_2: autoDraw = True
+158.1640 	EXP 	Device response: <KeyPress from None: t=158.07842458298546, value=space, duration=0.07630008299020119>
+158.8192 	EXP 	fixation_2: autoDraw = False
+158.8696 	EXP 	Sound stimSound_2 reached end of file
+158.8860 	EXP 	Playing sound stimSound_2 on speaker 外部ヘッドフォン
+167.5271 	EXP 	Sound stimSound_2 reached end of file
+167.5339 	EXP 	Sound stimSound_2 reached end of file
+167.5472 	INFO 	Keyboard events cleared
+167.5470 	EXP 	fixation_2: autoDraw = False
+167.5470 	EXP 	response_2: autoDraw = True
+168.1820 	EXP 	Device response: <KeyPress from None: t=168.17863870799192, value=2, duration=None>
+168.1826 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'soundFile': 'stimuli/stim_df4_soa0.12.wav', 'df': np.int64(4), 'soa': np.float64(0.12), 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+168.1832 	EXP 	stimSound_2: sampleRate = 44100
+168.1988 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+168.2034 	DATA 	Keypress: 2
+168.2088 	EXP 	response_2: autoDraw = False
+168.2088 	EXP 	fixation_2: autoDraw = True
+168.2708 	EXP 	Device response: <KeyPress from None: t=168.17863870799192, value=2, duration=0.09036037500482053>
+168.9021 	EXP 	fixation_2: autoDraw = False
+168.9696 	EXP 	Sound stimSound_2 reached end of file
+168.9860 	EXP 	Playing sound stimSound_2 on speaker 外部ヘッドフォン
+174.7471 	EXP 	Sound stimSound_2 reached end of file
+174.7532 	EXP 	Sound stimSound_2 reached end of file
+174.7638 	INFO 	Keyboard events cleared
+174.7636 	EXP 	fixation_2: autoDraw = False
+174.7636 	EXP 	response_2: autoDraw = True
+174.9821 	EXP 	Device response: <KeyPress from None: t=174.97518074998516, value=1, duration=None>
+174.9826 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'soundFile': 'stimuli/stim_df8_soa0.12.wav', 'df': np.int64(8), 'soa': np.float64(0.12), 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+174.9833 	EXP 	stimSound_2: sampleRate = 44100
+174.9950 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+175.0009 	DATA 	Keypress: 1
+175.0063 	EXP 	response_2: autoDraw = False
+175.0063 	EXP 	fixation_2: autoDraw = True
+175.1043 	EXP 	Device response: <KeyPress from None: t=174.97518074998516, value=1, duration=0.12642787498771213>
+175.7027 	EXP 	fixation_2: autoDraw = False
+175.7698 	EXP 	Sound stimSound_2 reached end of file
+175.7861 	EXP 	Playing sound stimSound_2 on speaker 外部ヘッドフォン
+181.5472 	EXP 	Sound stimSound_2 reached end of file
+181.5529 	EXP 	Sound stimSound_2 reached end of file
+181.5637 	INFO 	Keyboard events cleared
+181.5635 	EXP 	fixation_2: autoDraw = False
+181.5635 	EXP 	response_2: autoDraw = True
+182.0322 	EXP 	Device response: <KeyPress from None: t=182.02702924999176, value=2, duration=None>
+182.0327 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'soundFile': 'stimuli/stim_df6_soa0.12.wav', 'df': np.int64(6), 'soa': np.float64(0.12), 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+182.0333 	EXP 	stimSound_2: sampleRate = 44100
+182.0464 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+182.0521 	DATA 	Keypress: 2
+182.0576 	EXP 	response_2: autoDraw = False
+182.0576 	EXP 	fixation_2: autoDraw = True
+182.1320 	EXP 	Device response: <KeyPress from None: t=182.02702924999176, value=2, duration=0.10224162499071099>
+182.7526 	EXP 	fixation_2: autoDraw = False
+182.8191 	EXP 	Sound stimSound_2 reached end of file
+182.8354 	EXP 	Playing sound stimSound_2 on speaker 外部ヘッドフォン
+188.5965 	EXP 	Sound stimSound_2 reached end of file
+188.6028 	EXP 	Sound stimSound_2 reached end of file
+188.6137 	INFO 	Keyboard events cleared
+188.6135 	EXP 	fixation_2: autoDraw = False
+188.6135 	EXP 	response_2: autoDraw = True
+188.8988 	EXP 	Device response: <KeyPress from None: t=188.8895541249949, value=2, duration=None>
+188.8993 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'soundFile': 'stimuli/stim_df4_soa0.09.wav', 'df': np.int64(4), 'soa': np.float64(0.09), 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+188.8999 	EXP 	stimSound_2: sampleRate = 44100
+188.9098 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+188.9156 	DATA 	Keypress: 2
+188.9216 	EXP 	response_2: autoDraw = False
+188.9216 	EXP 	fixation_2: autoDraw = True
+188.9984 	EXP 	Device response: <KeyPress from None: t=188.8895541249949, value=2, duration=0.10234016599133611>
+189.6195 	EXP 	fixation_2: autoDraw = False
+189.6864 	EXP 	Sound stimSound_2 reached end of file
+189.7028 	EXP 	Playing sound stimSound_2 on speaker 外部ヘッドフォン
+194.0240 	EXP 	Sound stimSound_2 reached end of file
+194.0308 	EXP 	Sound stimSound_2 reached end of file
+194.0381 	INFO 	Keyboard events cleared
+194.0379 	EXP 	fixation_2: autoDraw = False
+194.0379 	EXP 	response_2: autoDraw = True
+194.3220 	EXP 	Device response: <KeyPress from None: t=194.32018137499108, value=1, duration=None>
+194.3225 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'soundFile': 'stimuli/stim_df12_soa0.12.wav', 'df': np.int64(12), 'soa': np.float64(0.12), 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+194.3233 	EXP 	stimSound_2: sampleRate = 44100
+194.3405 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+194.3441 	DATA 	Keypress: 1
+194.3493 	EXP 	response_2: autoDraw = False
+194.3493 	EXP 	fixation_2: autoDraw = True
+194.4821 	EXP 	Device response: <KeyPress from None: t=194.32018137499108, value=1, duration=0.15825449998374097>
+195.0468 	EXP 	fixation_2: autoDraw = False
+195.1137 	EXP 	Sound stimSound_2 reached end of file
+195.1301 	EXP 	Playing sound stimSound_2 on speaker 外部ヘッドフォン
+200.8909 	EXP 	Sound stimSound_2 reached end of file
+200.8985 	EXP 	Sound stimSound_2 reached end of file
+200.9061 	INFO 	Keyboard events cleared
+200.9059 	EXP 	fixation_2: autoDraw = False
+200.9059 	EXP 	response_2: autoDraw = True
+201.4048 	EXP 	Device response: <KeyPress from None: t=201.3978889999853, value=2, duration=None>
+201.4054 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'soundFile': 'stimuli/stim_df10_soa0.12.wav', 'df': np.int64(10), 'soa': np.float64(0.12), 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+201.4061 	EXP 	stimSound_2: sampleRate = 44100
+201.4183 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+201.4232 	DATA 	Keypress: 2
+201.4281 	EXP 	response_2: autoDraw = False
+201.4281 	EXP 	fixation_2: autoDraw = True
+201.5211 	EXP 	Device response: <KeyPress from None: t=201.3978889999853, value=2, duration=0.11827620799886063>
+202.1196 	EXP 	fixation_2: autoDraw = False
+202.1974 	EXP 	Sound stimSound_2 reached end of file
+202.2138 	EXP 	Playing sound stimSound_2 on speaker 外部ヘッドフォン
+207.9745 	EXP 	Sound stimSound_2 reached end of file
+207.9817 	EXP 	Sound stimSound_2 reached end of file
+207.9888 	INFO 	Keyboard events cleared
+207.9887 	EXP 	fixation_2: autoDraw = False
+207.9887 	EXP 	response_2: autoDraw = True
+208.5152 	EXP 	Device response: <KeyPress from None: t=208.50615166599164, value=2, duration=None>
+208.5157 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'soundFile': 'stimuli/stim_df2_soa0.18.wav', 'df': np.int64(2), 'soa': np.float64(0.18), 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+208.5164 	EXP 	stimSound_2: sampleRate = 44100
+208.5332 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+208.5377 	DATA 	Keypress: 2
+208.5428 	EXP 	response_2: autoDraw = False
+208.5428 	EXP 	fixation_2: autoDraw = True
+208.6210 	EXP 	Device response: <KeyPress from None: t=208.50615166599164, value=2, duration=0.11025379199418239>
+209.2360 	EXP 	fixation_2: autoDraw = False
+209.3026 	EXP 	Sound stimSound_2 reached end of file
+209.3190 	EXP 	Playing sound stimSound_2 on speaker 外部ヘッドフォン
+217.9602 	EXP 	Sound stimSound_2 reached end of file
+217.9668 	EXP 	Sound stimSound_2 reached end of file
+217.9805 	INFO 	Keyboard events cleared
+217.9803 	EXP 	fixation_2: autoDraw = False
+217.9803 	EXP 	response_2: autoDraw = True
+218.5322 	EXP 	Device response: <KeyPress from None: t=218.526417999994, value=2, duration=None>
+218.5327 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'soundFile': 'stimuli/stim_df6_soa0.09.wav', 'df': np.int64(6), 'soa': np.float64(0.09), 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+218.5334 	EXP 	stimSound_2: sampleRate = 44100
+218.5428 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+218.5489 	DATA 	Keypress: 2
+218.5546 	EXP 	response_2: autoDraw = False
+218.5546 	EXP 	fixation_2: autoDraw = True
+218.6545 	EXP 	Device response: <KeyPress from None: t=218.526417999994, value=2, duration=0.1261788329866249>
+219.2533 	EXP 	fixation_2: autoDraw = False
+219.3194 	EXP 	Sound stimSound_2 reached end of file
+219.3359 	EXP 	Playing sound stimSound_2 on speaker 外部ヘッドフォン
+223.6570 	EXP 	Sound stimSound_2 reached end of file
+223.6638 	EXP 	Sound stimSound_2 reached end of file
+223.6716 	INFO 	Keyboard events cleared
+223.6714 	EXP 	fixation_2: autoDraw = False
+223.6714 	EXP 	response_2: autoDraw = True
+224.1551 	EXP 	Device response: <KeyPress from None: t=224.14829233297496, value=1, duration=None>
+224.1556 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'soundFile': 'stimuli/stim_df8_soa0.09.wav', 'df': np.int64(8), 'soa': np.float64(0.09), 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+224.1563 	EXP 	stimSound_2: sampleRate = 44100
+224.1658 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+224.1695 	DATA 	Keypress: 1
+224.1745 	EXP 	response_2: autoDraw = False
+224.1745 	EXP 	fixation_2: autoDraw = True
+224.3383 	EXP 	Device response: <KeyPress from None: t=224.14829233297496, value=1, duration=0.1862755420152098>
+224.8693 	EXP 	fixation_2: autoDraw = False
+224.9472 	EXP 	Sound stimSound_2 reached end of file
+224.9636 	EXP 	Playing sound stimSound_2 on speaker 外部ヘッドフォン
+229.2841 	EXP 	Sound stimSound_2 reached end of file
+229.2904 	EXP 	Sound stimSound_2 reached end of file
+229.2975 	INFO 	Keyboard events cleared
+229.2972 	EXP 	fixation_2: autoDraw = False
+229.2972 	EXP 	response_2: autoDraw = True
+229.6321 	EXP 	Device response: <KeyPress from None: t=229.62946479098173, value=2, duration=None>
+229.6327 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'soundFile': 'stimuli/stim_df8_soa0.18.wav', 'df': np.int64(8), 'soa': np.float64(0.18), 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+229.6332 	EXP 	stimSound_2: sampleRate = 44100
+229.6519 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+229.6554 	DATA 	Keypress: 2
+229.6606 	EXP 	response_2: autoDraw = False
+229.6606 	EXP 	fixation_2: autoDraw = True
+229.7476 	EXP 	Device response: <KeyPress from None: t=229.62946479098173, value=2, duration=0.11425033400882967>
+230.3527 	EXP 	fixation_2: autoDraw = False
+230.4196 	EXP 	Sound stimSound_2 reached end of file
+230.4360 	EXP 	Playing sound stimSound_2 on speaker 外部ヘッドフォン
+239.0768 	EXP 	Sound stimSound_2 reached end of file
+239.0833 	EXP 	Sound stimSound_2 reached end of file
+239.0970 	INFO 	Keyboard events cleared
+239.0968 	EXP 	fixation_2: autoDraw = False
+239.0968 	EXP 	response_2: autoDraw = True
+241.2822 	EXP 	Device response: <KeyPress from None: t=241.27686012498452, value=1, duration=None>
+241.2827 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'soundFile': 'stimuli/stim_df2_soa0.12.wav', 'df': np.int64(2), 'soa': np.float64(0.12), 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+241.2833 	EXP 	stimSound_2: sampleRate = 44100
+241.2952 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+241.3015 	DATA 	Keypress: 1
+241.3072 	EXP 	response_2: autoDraw = False
+241.3072 	EXP 	fixation_2: autoDraw = True
+241.4378 	EXP 	Device response: <KeyPress from None: t=241.27686012498452, value=1, duration=0.15429095801664516>
+242.0033 	EXP 	fixation_2: autoDraw = False
+242.0690 	EXP 	Sound stimSound_2 reached end of file
+242.0854 	EXP 	Playing sound stimSound_2 on speaker 外部ヘッドフォン
+247.8465 	EXP 	Sound stimSound_2 reached end of file
+247.8528 	EXP 	Sound stimSound_2 reached end of file
+247.8637 	INFO 	Keyboard events cleared
+247.8635 	EXP 	fixation_2: autoDraw = False
+247.8635 	EXP 	response_2: autoDraw = True
+248.4880 	EXP 	Device response: <KeyPress from None: t=248.482395332976, value=1, duration=None>
+248.4886 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'soundFile': 'stimuli/stim_df4_soa0.18.wav', 'df': np.int64(4), 'soa': np.float64(0.18), 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+248.4893 	EXP 	stimSound_2: sampleRate = 44100
+248.5069 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+248.5108 	DATA 	Keypress: 1
+248.5161 	EXP 	response_2: autoDraw = False
+248.5161 	EXP 	fixation_2: autoDraw = True
+248.5527 	EXP 	Device response: <KeyPress from None: t=248.482395332976, value=1, duration=0.06614391700713895>
+249.2135 	EXP 	fixation_2: autoDraw = False
+249.2803 	EXP 	Sound stimSound_2 reached end of file
+249.2968 	EXP 	Playing sound stimSound_2 on speaker 外部ヘッドフォン
+257.9377 	EXP 	Sound stimSound_2 reached end of file
+257.9443 	EXP 	Sound stimSound_2 reached end of file
+257.9515 	INFO 	Keyboard events cleared
+257.9513 	EXP 	fixation_2: autoDraw = False
+257.9513 	EXP 	response_2: autoDraw = True
+258.6153 	EXP 	Device response: <KeyPress from None: t=258.6133607499942, value=3, duration=None>
+258.6266 	DATA 	Keypress: 3
+258.7151 	EXP 	Device response: <KeyPress from None: t=258.6133607499942, value=3, duration=0.0942700409796089>
+259.3151 	EXP 	Device response: <KeyPress from None: t=259.3092994579929, value=escape, duration=None>
+259.3526 	DATA 	Keypress: escape
+259.4138 	EXP 	Device response: <KeyPress from None: t=259.3092994579929, value=escape, duration=0.1004617500002496>
+259.4138 	EXP 	ASS_builder_online: status = STOPPED
+259.4192 	EXP 	response_2: autoDraw = False
+259.4193 	EXP 	ASS_builder_online: status = STOPPED
+259.4295 	INFO 	saved data to '/Users/meg/ASS_builder_online/data/240561_ASS_builder_online_2026-03-12_14h43.02.544.csv'
+259.4305 	INFO 	saved data to /Users/meg/ASS_builder_online/data/240561_ASS_builder_online_2026-03-12_14h43.02.544.psydat
+259.8797 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+259.8799 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+259.8800 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+259.8800 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+259.8800 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+259.8800 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+259.8800 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+259.8800 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
